@@ -13,7 +13,6 @@
 		962189FD1B67955500388FF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962189FB1B67955500388FF9 /* LaunchScreen.xib */; };
 		96218A091B67955500388FF9 /* ImageRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96218A081B67955500388FF9 /* ImageRotateTests.m */; };
 		96218A171B6795CF00388FF9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96218A151B6795CF00388FF9 /* MainViewController.m */; };
-		96218A1C1B67B36900388FF9 /* LocalInfo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96218A1E1B67B36900388FF9 /* LocalInfo.strings */; };
 		96218A2F1B67B50400388FF9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96218A2D1B67B50400388FF9 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -40,9 +39,6 @@
 		96218A081B67955500388FF9 /* ImageRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRotateTests.m; sourceTree = "<group>"; };
 		96218A141B6795CF00388FF9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		96218A151B6795CF00388FF9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		96218A1B1B67B35B00388FF9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		96218A1D1B67B36900388FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalInfo.strings; sourceTree = "<group>"; };
-		96218A1F1B67B36B00388FF9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LocalInfo.strings"; sourceTree = "<group>"; };
 		96218A2E1B67B50400388FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +96,6 @@
 			children = (
 				962189ED1B67955500388FF9 /* Info.plist */,
 				962189EE1B67955500388FF9 /* main.m */,
-				96218A1E1B67B36900388FF9 /* LocalInfo.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,7 +190,6 @@
 			knownRegions = (
 				en,
 				Base,
-				"zh-Hans",
 			);
 			mainGroup = 962189E01B67955500388FF9;
 			productRefGroup = 962189EA1B67955500388FF9 /* Products */;
@@ -213,7 +207,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96218A1C1B67B36900388FF9 /* LocalInfo.strings in Resources */,
 				962189FD1B67955500388FF9 /* LaunchScreen.xib in Resources */,
 				962189FA1B67955500388FF9 /* Images.xcassets in Resources */,
 				96218A2F1B67B50400388FF9 /* MainViewController.xib in Resources */,
@@ -263,18 +256,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				962189FC1B67955500388FF9 /* Base */,
-				96218A1B1B67B35B00388FF9 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		96218A1E1B67B36900388FF9 /* LocalInfo.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96218A1D1B67B36900388FF9 /* en */,
-				96218A1F1B67B36B00388FF9 /* zh-Hans */,
-			);
-			name = LocalInfo.strings;
 			sourceTree = "<group>";
 		};
 		96218A2D1B67B50400388FF9 /* MainViewController.xib */ = {
@@ -441,6 +424,7 @@
 				96218A0E1B67955500388FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96218A0F1B67955500388FF9 /* Build configuration list for PBXNativeTarget "ImageRotateTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +433,7 @@
 				96218A111B67955500388FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

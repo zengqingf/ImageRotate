@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6B47D0C5-2A36-424D-A657-4EE85AB95010</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ImageRotate</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AC1F481E2D14CDBC31D4ABEBFC1F377975AD56D9</key>
 		<string>https://github.com/zengqingf/ImageRotate.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ImageRotate/ImageRotate.xcodeproj/project.xcworkspace</string>
+	<string>ImageRotate/ImageRotate.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AC1F481E2D14CDBC31D4ABEBFC1F377975AD56D9</key>
