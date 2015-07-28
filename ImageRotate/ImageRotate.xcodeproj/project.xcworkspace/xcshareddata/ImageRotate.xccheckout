@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6B47D0C5-2A36-424D-A657-4EE85AB95010</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC1F481E2D14CDBC31D4ABEBFC1F377975AD56D9</key>
+		<string>https://github.com/zengqingf/ImageRotate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ImageRotate/ImageRotate.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC1F481E2D14CDBC31D4ABEBFC1F377975AD56D9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zengqingf/ImageRotate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC1F481E2D14CDBC31D4ABEBFC1F377975AD56D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC1F481E2D14CDBC31D4ABEBFC1F377975AD56D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImageRotate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
