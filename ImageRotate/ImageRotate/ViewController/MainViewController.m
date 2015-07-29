@@ -27,10 +27,9 @@
     self.defaultImg = [UIImage imageNamed:@"openImg.png"];
     self.imageView.image = self.defaultImg;
     
+   NSString * msg = NSLocalizedString(@"SaveImgSuccessfully", nil);
+    NSLog(@"%@", msg);
     
-    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    NSLog(@"%@", infoDictionary);
-
 }
 
 - (void)didReceiveMemoryWarning {

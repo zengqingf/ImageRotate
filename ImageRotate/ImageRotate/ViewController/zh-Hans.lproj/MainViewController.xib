@@ -49,7 +49,7 @@
                         <barButtonItem title="|" style="plain" id="LdY-tW-F9I">
                             <color key="tintColor" red="1" green="0.38765960859999998" blue="0.48119503829999999" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
-                        <barButtonItem enabled="NO" title="存储" id="3Tl-cY-I2f">
+                        <barButtonItem enabled="NO" title="保存" id="3Tl-cY-I2f">
                             <connections>
                                 <action selector="savePhotoAction:" destination="-1" id="Mqo-Yf-KGq"/>
                             </connections>
