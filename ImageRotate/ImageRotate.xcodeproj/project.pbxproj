@@ -10,13 +10,6 @@
 		968A3FD11B68B3A300452D80 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 968A3FD31B68B3A300452D80 /* Localizable.strings */; };
 		96D956861B68B4BC00EDB031 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96D956881B68B4BC00EDB031 /* InfoPlist.strings */; };
 		96D9568B1B68B6FE00EDB031 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D9568A1B68B6FE00EDB031 /* Default-568h@2x.png */; };
-		96D956971B68B8C800EDB031 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D956961B68B8C800EDB031 /* InterfaceController.m */; };
-		96D9569A1B68B8C800EDB031 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D956991B68B8C800EDB031 /* NotificationController.m */; };
-		96D9569C1B68B8C800EDB031 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D9569B1B68B8C800EDB031 /* Images.xcassets */; };
-		96D956A01B68B8C800EDB031 /* ImageRotate WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 96D9569F1B68B8C800EDB031 /* ImageRotate WatchKit App.app */; };
-		96D956A81B68B8C800EDB031 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D956A61B68B8C800EDB031 /* Interface.storyboard */; };
-		96D956AA1B68B8C800EDB031 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D956A91B68B8C800EDB031 /* Images.xcassets */; };
-		96D956AD1B68B8C800EDB031 /* ImageRotate WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 96D956901B68B8C800EDB031 /* ImageRotate WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		96EA5F561B68833200D92DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F551B68833200D92DE0 /* main.m */; };
 		96EA5F591B68833200D92DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F581B68833200D92DE0 /* AppDelegate.m */; };
 		96EA5F611B68833200D92DE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5F601B68833200D92DE0 /* Images.xcassets */; };
@@ -27,20 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		96D956A11B68B8C800EDB031 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96EA5F481B68833200D92DE0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96D9569E1B68B8C800EDB031;
-			remoteInfo = "ImageRotate WatchKit App";
-		};
-		96D956AB1B68B8C800EDB031 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96EA5F481B68833200D92DE0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96D9568F1B68B8C800EDB031;
-			remoteInfo = "ImageRotate WatchKit Extension";
-		};
 		96EA5F6A1B68833200D92DE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 96EA5F481B68833200D92DE0 /* Project object */;
@@ -50,38 +29,12 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		96D956B41B68B8C800EDB031 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				96D956AD1B68B8C800EDB031 /* ImageRotate WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		968A3FD41B68B3A500452D80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		968A3FD51B68B3A600452D80 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		96D956871B68B4BC00EDB031 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96D956891B68B4BD00EDB031 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		96D9568A1B68B6FE00EDB031 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		96D956901B68B8C800EDB031 /* ImageRotate WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ImageRotate WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96D956931B68B8C800EDB031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96D956941B68B8C800EDB031 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		96D956951B68B8C800EDB031 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		96D956961B68B8C800EDB031 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		96D956981B68B8C800EDB031 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		96D956991B68B8C800EDB031 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
-		96D9569B1B68B8C800EDB031 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		96D9569F1B68B8C800EDB031 /* ImageRotate WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageRotate WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96D956A51B68B8C800EDB031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96D956A71B68B8C800EDB031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		96D956A91B68B8C800EDB031 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96EA5F501B68833200D92DE0 /* ImageRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EA5F541B68833200D92DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96EA5F551B68833200D92DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,13 +52,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		96D9568D1B68B8C800EDB031 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96EA5F4D1B68833200D92DE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,54 +69,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96D956911B68B8C800EDB031 /* ImageRotate WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				96D956951B68B8C800EDB031 /* InterfaceController.h */,
-				96D956961B68B8C800EDB031 /* InterfaceController.m */,
-				96D956981B68B8C800EDB031 /* NotificationController.h */,
-				96D956991B68B8C800EDB031 /* NotificationController.m */,
-				96D9569B1B68B8C800EDB031 /* Images.xcassets */,
-				96D956921B68B8C800EDB031 /* Supporting Files */,
-			);
-			path = "ImageRotate WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		96D956921B68B8C800EDB031 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				96D956931B68B8C800EDB031 /* Info.plist */,
-				96D956941B68B8C800EDB031 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		96D956A31B68B8C800EDB031 /* ImageRotate WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				96D956A61B68B8C800EDB031 /* Interface.storyboard */,
-				96D956A91B68B8C800EDB031 /* Images.xcassets */,
-				96D956A41B68B8C800EDB031 /* Supporting Files */,
-			);
-			path = "ImageRotate WatchKit App";
-			sourceTree = "<group>";
-		};
-		96D956A41B68B8C800EDB031 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				96D956A51B68B8C800EDB031 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		96EA5F471B68833200D92DE0 = {
 			isa = PBXGroup;
 			children = (
 				96D9568A1B68B6FE00EDB031 /* Default-568h@2x.png */,
 				96EA5F521B68833200D92DE0 /* ImageRotate */,
 				96EA5F6C1B68833200D92DE0 /* ImageRotateTests */,
-				96D956911B68B8C800EDB031 /* ImageRotate WatchKit Extension */,
-				96D956A31B68B8C800EDB031 /* ImageRotate WatchKit App */,
 				96EA5F511B68833200D92DE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -180,8 +84,6 @@
 			children = (
 				96EA5F501B68833200D92DE0 /* ImageRotate.app */,
 				96EA5F691B68833200D92DE0 /* ImageRotateTests.xctest */,
-				96D956901B68B8C800EDB031 /* ImageRotate WatchKit Extension.appex */,
-				96D9569F1B68B8C800EDB031 /* ImageRotate WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,39 +142,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96D9568F1B68B8C800EDB031 /* ImageRotate WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96D956B11B68B8C800EDB031 /* Build configuration list for PBXNativeTarget "ImageRotate WatchKit Extension" */;
-			buildPhases = (
-				96D9568C1B68B8C800EDB031 /* Sources */,
-				96D9568D1B68B8C800EDB031 /* Frameworks */,
-				96D9568E1B68B8C800EDB031 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				96D956A21B68B8C800EDB031 /* PBXTargetDependency */,
-			);
-			name = "ImageRotate WatchKit Extension";
-			productName = "ImageRotate WatchKit Extension";
-			productReference = 96D956901B68B8C800EDB031 /* ImageRotate WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit-extension";
-		};
-		96D9569E1B68B8C800EDB031 /* ImageRotate WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96D956AE1B68B8C800EDB031 /* Build configuration list for PBXNativeTarget "ImageRotate WatchKit App" */;
-			buildPhases = (
-				96D9569D1B68B8C800EDB031 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ImageRotate WatchKit App";
-			productName = "ImageRotate WatchKit App";
-			productReference = 96D9569F1B68B8C800EDB031 /* ImageRotate WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp";
-		};
 		96EA5F4F1B68833200D92DE0 /* ImageRotate */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96EA5F731B68833200D92DE0 /* Build configuration list for PBXNativeTarget "ImageRotate" */;
@@ -280,12 +149,10 @@
 				96EA5F4C1B68833200D92DE0 /* Sources */,
 				96EA5F4D1B68833200D92DE0 /* Frameworks */,
 				96EA5F4E1B68833200D92DE0 /* Resources */,
-				96D956B41B68B8C800EDB031 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				96D956AC1B68B8C800EDB031 /* PBXTargetDependency */,
 			);
 			name = ImageRotate;
 			productName = ImageRotate;
@@ -319,12 +186,6 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = zengqingfu;
 				TargetAttributes = {
-					96D9568F1B68B8C800EDB031 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					96D9569E1B68B8C800EDB031 = {
-						CreatedOnToolsVersion = 6.4;
-					};
 					96EA5F4F1B68833200D92DE0 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -350,31 +211,11 @@
 			targets = (
 				96EA5F4F1B68833200D92DE0 /* ImageRotate */,
 				96EA5F681B68833200D92DE0 /* ImageRotateTests */,
-				96D9568F1B68B8C800EDB031 /* ImageRotate WatchKit Extension */,
-				96D9569E1B68B8C800EDB031 /* ImageRotate WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		96D9568E1B68B8C800EDB031 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96D9569C1B68B8C800EDB031 /* Images.xcassets in Resources */,
-				96D956A01B68B8C800EDB031 /* ImageRotate WatchKit App.app in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96D9569D1B68B8C800EDB031 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96D956A81B68B8C800EDB031 /* Interface.storyboard in Resources */,
-				96D956AA1B68B8C800EDB031 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96EA5F4E1B68833200D92DE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,15 +239,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		96D9568C1B68B8C800EDB031 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96D9569A1B68B8C800EDB031 /* NotificationController.m in Sources */,
-				96D956971B68B8C800EDB031 /* InterfaceController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		96EA5F4C1B68833200D92DE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,16 +260,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		96D956A21B68B8C800EDB031 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 96D9569E1B68B8C800EDB031 /* ImageRotate WatchKit App */;
-			targetProxy = 96D956A11B68B8C800EDB031 /* PBXContainerItemProxy */;
-		};
-		96D956AC1B68B8C800EDB031 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 96D9568F1B68B8C800EDB031 /* ImageRotate WatchKit Extension */;
-			targetProxy = 96D956AB1B68B8C800EDB031 /* PBXContainerItemProxy */;
-		};
 		96EA5F6B1B68833200D92DE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 96EA5F4F1B68833200D92DE0 /* ImageRotate */;
@@ -464,14 +286,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		96D956A61B68B8C800EDB031 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96D956A71B68B8C800EDB031 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 		96EA5F621B68833200D92DE0 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -492,62 +306,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		96D956AF1B68B8C800EDB031 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				IBSC_MODULE = ImageRotate_WatchKit_Extension;
-				INFOPLIST_FILE = "ImageRotate WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
-			};
-			name = Debug;
-		};
-		96D956B01B68B8C800EDB031 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				IBSC_MODULE = ImageRotate_WatchKit_Extension;
-				INFOPLIST_FILE = "ImageRotate WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
-			};
-			name = Release;
-		};
-		96D956B21B68B8C800EDB031 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ImageRotate WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		96D956B31B68B8C800EDB031 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "ImageRotate WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		96EA5F711B68833200D92DE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -685,22 +443,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96D956AE1B68B8C800EDB031 /* Build configuration list for PBXNativeTarget "ImageRotate WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96D956AF1B68B8C800EDB031 /* Debug */,
-				96D956B01B68B8C800EDB031 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		96D956B11B68B8C800EDB031 /* Build configuration list for PBXNativeTarget "ImageRotate WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96D956B21B68B8C800EDB031 /* Debug */,
-				96D956B31B68B8C800EDB031 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		96EA5F4B1B68833200D92DE0 /* Build configuration list for PBXProject "ImageRotate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
