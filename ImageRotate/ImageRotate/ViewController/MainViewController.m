@@ -27,8 +27,8 @@
     self.defaultImg = [UIImage imageNamed:@"openImg.png"];
     self.imageView.image = self.defaultImg;
     
-   NSString * msg = NSLocalizedString(@"SaveImgSuccessfully", nil);
-    NSLog(@"%@", msg);
+//   NSString * msg = NSLocalizedString(@"SaveImgSuccessfully", nil);
+//    NSLog(@"%@", msg);
     
 }
 
@@ -56,7 +56,7 @@
 }
 - (IBAction)rightRotate:(id)sender {
     self.count += 1;
-    NSLog(@"count = %ld", self.count);
+//    NSLog(@"count = %ld", self.count);
     UIImage *image = self.imageView.image;
     UIImage *newImg = [self image:image rotation:UIImageOrientationRight];
     self.imageView.image = newImg;
@@ -187,7 +187,7 @@
 -(void)imagePickerController:(UIImagePickerController*)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 
 {
-    NSLog(@"info = %@", info);
+//    NSLog(@"info = %@", info);
     NSString *type = [info objectForKey:UIImagePickerControllerMediaType];
     
     //当选择的类型是图片
