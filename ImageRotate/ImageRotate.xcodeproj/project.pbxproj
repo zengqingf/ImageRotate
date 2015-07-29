@@ -13,7 +13,8 @@
 		96EA5F641B68833200D92DE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5F621B68833200D92DE0 /* LaunchScreen.xib */; };
 		96EA5F701B68833200D92DE0 /* ImageRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F6F1B68833200D92DE0 /* ImageRotateTests.m */; };
 		96EA5F7D1B68839500D92DE0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F7B1B68839500D92DE0 /* MainViewController.m */; };
-		96EA5F7E1B68839500D92DE0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5F7C1B68839500D92DE0 /* MainViewController.xib */; };
+		96EA5FB21B68A9D200D92DE0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5FB41B68A9D200D92DE0 /* MainViewController.xib */; };
+		96EA5FB61B68A9E800D92DE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5FB81B68A9E800D92DE0 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,10 @@
 		96EA5F6F1B68833200D92DE0 /* ImageRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRotateTests.m; sourceTree = "<group>"; };
 		96EA5F7A1B68839500D92DE0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		96EA5F7B1B68839500D92DE0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		96EA5F7C1B68839500D92DE0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		96EA5FB31B68A9D200D92DE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		96EA5FB51B68A9E000D92DE0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainViewController.xib"; sourceTree = "<group>"; };
+		96EA5FB71B68A9E800D92DE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96EA5FB91B68A9EA00D92DE0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			children = (
 				96EA5F541B68833200D92DE0 /* Info.plist */,
 				96EA5F551B68833200D92DE0 /* main.m */,
+				96EA5FB81B68A9E800D92DE0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,7 +127,7 @@
 			children = (
 				96EA5F7A1B68839500D92DE0 /* MainViewController.h */,
 				96EA5F7B1B68839500D92DE0 /* MainViewController.m */,
-				96EA5F7C1B68839500D92DE0 /* MainViewController.xib */,
+				96EA5FB41B68A9D200D92DE0 /* MainViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 96EA5F471B68833200D92DE0;
 			productRefGroup = 96EA5F511B68833200D92DE0 /* Products */;
@@ -208,7 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				96EA5F641B68833200D92DE0 /* LaunchScreen.xib in Resources */,
-				96EA5F7E1B68839500D92DE0 /* MainViewController.xib in Resources */,
+				96EA5FB61B68A9E800D92DE0 /* InfoPlist.strings in Resources */,
+				96EA5FB21B68A9D200D92DE0 /* MainViewController.xib in Resources */,
 				96EA5F611B68833200D92DE0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,24 @@
 				96EA5F631B68833200D92DE0 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		96EA5FB41B68A9D200D92DE0 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96EA5FB31B68A9D200D92DE0 /* en */,
+				96EA5FB51B68A9E000D92DE0 /* zh-Hans */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		96EA5FB81B68A9E800D92DE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96EA5FB71B68A9E800D92DE0 /* en */,
+				96EA5FB91B68A9EA00D92DE0 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +441,7 @@
 				96EA5F751B68833200D92DE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96EA5F761B68833200D92DE0 /* Build configuration list for PBXNativeTarget "ImageRotateTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +450,7 @@
 				96EA5F781B68833200D92DE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
