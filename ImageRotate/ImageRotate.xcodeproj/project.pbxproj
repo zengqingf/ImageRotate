@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		962189EF1B67955500388FF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962189EE1B67955500388FF9 /* main.m */; };
-		962189F21B67955500388FF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 962189F11B67955500388FF9 /* AppDelegate.m */; };
-		962189FA1B67955500388FF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962189F91B67955500388FF9 /* Images.xcassets */; };
-		962189FD1B67955500388FF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962189FB1B67955500388FF9 /* LaunchScreen.xib */; };
-		96218A091B67955500388FF9 /* ImageRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96218A081B67955500388FF9 /* ImageRotateTests.m */; };
-		96218A171B6795CF00388FF9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96218A151B6795CF00388FF9 /* MainViewController.m */; };
-		96218A2F1B67B50400388FF9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96218A2D1B67B50400388FF9 /* MainViewController.xib */; };
+		96EA5F561B68833200D92DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F551B68833200D92DE0 /* main.m */; };
+		96EA5F591B68833200D92DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F581B68833200D92DE0 /* AppDelegate.m */; };
+		96EA5F611B68833200D92DE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5F601B68833200D92DE0 /* Images.xcassets */; };
+		96EA5F641B68833200D92DE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5F621B68833200D92DE0 /* LaunchScreen.xib */; };
+		96EA5F701B68833200D92DE0 /* ImageRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F6F1B68833200D92DE0 /* ImageRotateTests.m */; };
+		96EA5F7D1B68839500D92DE0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F7B1B68839500D92DE0 /* MainViewController.m */; };
+		96EA5F7E1B68839500D92DE0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5F7C1B68839500D92DE0 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		96218A031B67955500388FF9 /* PBXContainerItemProxy */ = {
+		96EA5F6A1B68833200D92DE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 962189E11B67955500388FF9 /* Project object */;
+			containerPortal = 96EA5F481B68833200D92DE0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 962189E81B67955500388FF9;
+			remoteGlobalIDString = 96EA5F4F1B68833200D92DE0;
 			remoteInfo = ImageRotate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		962189E91B67955500388FF9 /* ImageRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		962189ED1B67955500388FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		962189EE1B67955500388FF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		962189F01B67955500388FF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		962189F11B67955500388FF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		962189F91B67955500388FF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		962189FC1B67955500388FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		96218A021B67955500388FF9 /* ImageRotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96218A071B67955500388FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96218A081B67955500388FF9 /* ImageRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRotateTests.m; sourceTree = "<group>"; };
-		96218A141B6795CF00388FF9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		96218A151B6795CF00388FF9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		96218A2E1B67B50400388FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		96EA5F501B68833200D92DE0 /* ImageRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EA5F541B68833200D92DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EA5F551B68833200D92DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96EA5F571B68833200D92DE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96EA5F581B68833200D92DE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96EA5F601B68833200D92DE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96EA5F631B68833200D92DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96EA5F691B68833200D92DE0 /* ImageRotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EA5F6E1B68833200D92DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EA5F6F1B68833200D92DE0 /* ImageRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRotateTests.m; sourceTree = "<group>"; };
+		96EA5F7A1B68839500D92DE0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		96EA5F7B1B68839500D92DE0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		96EA5F7C1B68839500D92DE0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		962189E61B67955500388FF9 /* Frameworks */ = {
+		96EA5F4D1B68833200D92DE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		962189FF1B67955500388FF9 /* Frameworks */ = {
+		96EA5F661B68833200D92DE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,69 +60,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		962189E01B67955500388FF9 = {
+		96EA5F471B68833200D92DE0 = {
 			isa = PBXGroup;
 			children = (
-				962189EB1B67955500388FF9 /* ImageRotate */,
-				96218A051B67955500388FF9 /* ImageRotateTests */,
-				962189EA1B67955500388FF9 /* Products */,
+				96EA5F521B68833200D92DE0 /* ImageRotate */,
+				96EA5F6C1B68833200D92DE0 /* ImageRotateTests */,
+				96EA5F511B68833200D92DE0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		962189EA1B67955500388FF9 /* Products */ = {
+		96EA5F511B68833200D92DE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				962189E91B67955500388FF9 /* ImageRotate.app */,
-				96218A021B67955500388FF9 /* ImageRotateTests.xctest */,
+				96EA5F501B68833200D92DE0 /* ImageRotate.app */,
+				96EA5F691B68833200D92DE0 /* ImageRotateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		962189EB1B67955500388FF9 /* ImageRotate */ = {
+		96EA5F521B68833200D92DE0 /* ImageRotate */ = {
 			isa = PBXGroup;
 			children = (
-				96218A131B6795B400388FF9 /* ViewController */,
-				962189F01B67955500388FF9 /* AppDelegate.h */,
-				962189F11B67955500388FF9 /* AppDelegate.m */,
-				962189F91B67955500388FF9 /* Images.xcassets */,
-				962189FB1B67955500388FF9 /* LaunchScreen.xib */,
-				962189EC1B67955500388FF9 /* Supporting Files */,
+				96EA5F791B68839500D92DE0 /* ViewController */,
+				96EA5F571B68833200D92DE0 /* AppDelegate.h */,
+				96EA5F581B68833200D92DE0 /* AppDelegate.m */,
+				96EA5F601B68833200D92DE0 /* Images.xcassets */,
+				96EA5F621B68833200D92DE0 /* LaunchScreen.xib */,
+				96EA5F531B68833200D92DE0 /* Supporting Files */,
 			);
 			path = ImageRotate;
 			sourceTree = "<group>";
 		};
-		962189EC1B67955500388FF9 /* Supporting Files */ = {
+		96EA5F531B68833200D92DE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				962189ED1B67955500388FF9 /* Info.plist */,
-				962189EE1B67955500388FF9 /* main.m */,
+				96EA5F541B68833200D92DE0 /* Info.plist */,
+				96EA5F551B68833200D92DE0 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		96218A051B67955500388FF9 /* ImageRotateTests */ = {
+		96EA5F6C1B68833200D92DE0 /* ImageRotateTests */ = {
 			isa = PBXGroup;
 			children = (
-				96218A081B67955500388FF9 /* ImageRotateTests.m */,
-				96218A061B67955500388FF9 /* Supporting Files */,
+				96EA5F6F1B68833200D92DE0 /* ImageRotateTests.m */,
+				96EA5F6D1B68833200D92DE0 /* Supporting Files */,
 			);
 			path = ImageRotateTests;
 			sourceTree = "<group>";
 		};
-		96218A061B67955500388FF9 /* Supporting Files */ = {
+		96EA5F6D1B68833200D92DE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				96218A071B67955500388FF9 /* Info.plist */,
+				96EA5F6E1B68833200D92DE0 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		96218A131B6795B400388FF9 /* ViewController */ = {
+		96EA5F791B68839500D92DE0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				96218A141B6795CF00388FF9 /* MainViewController.h */,
-				96218A151B6795CF00388FF9 /* MainViewController.m */,
-				96218A2D1B67B50400388FF9 /* MainViewController.xib */,
+				96EA5F7A1B68839500D92DE0 /* MainViewController.h */,
+				96EA5F7B1B68839500D92DE0 /* MainViewController.m */,
+				96EA5F7C1B68839500D92DE0 /* MainViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		962189E81B67955500388FF9 /* ImageRotate */ = {
+		96EA5F4F1B68833200D92DE0 /* ImageRotate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96218A0C1B67955500388FF9 /* Build configuration list for PBXNativeTarget "ImageRotate" */;
+			buildConfigurationList = 96EA5F731B68833200D92DE0 /* Build configuration list for PBXNativeTarget "ImageRotate" */;
 			buildPhases = (
-				962189E51B67955500388FF9 /* Sources */,
-				962189E61B67955500388FF9 /* Frameworks */,
-				962189E71B67955500388FF9 /* Resources */,
+				96EA5F4C1B68833200D92DE0 /* Sources */,
+				96EA5F4D1B68833200D92DE0 /* Frameworks */,
+				96EA5F4E1B68833200D92DE0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,46 +144,46 @@
 			);
 			name = ImageRotate;
 			productName = ImageRotate;
-			productReference = 962189E91B67955500388FF9 /* ImageRotate.app */;
+			productReference = 96EA5F501B68833200D92DE0 /* ImageRotate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		96218A011B67955500388FF9 /* ImageRotateTests */ = {
+		96EA5F681B68833200D92DE0 /* ImageRotateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96218A0F1B67955500388FF9 /* Build configuration list for PBXNativeTarget "ImageRotateTests" */;
+			buildConfigurationList = 96EA5F761B68833200D92DE0 /* Build configuration list for PBXNativeTarget "ImageRotateTests" */;
 			buildPhases = (
-				962189FE1B67955500388FF9 /* Sources */,
-				962189FF1B67955500388FF9 /* Frameworks */,
-				96218A001B67955500388FF9 /* Resources */,
+				96EA5F651B68833200D92DE0 /* Sources */,
+				96EA5F661B68833200D92DE0 /* Frameworks */,
+				96EA5F671B68833200D92DE0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				96218A041B67955500388FF9 /* PBXTargetDependency */,
+				96EA5F6B1B68833200D92DE0 /* PBXTargetDependency */,
 			);
 			name = ImageRotateTests;
 			productName = ImageRotateTests;
-			productReference = 96218A021B67955500388FF9 /* ImageRotateTests.xctest */;
+			productReference = 96EA5F691B68833200D92DE0 /* ImageRotateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		962189E11B67955500388FF9 /* Project object */ = {
+		96EA5F481B68833200D92DE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = zengqingfu;
 				TargetAttributes = {
-					962189E81B67955500388FF9 = {
+					96EA5F4F1B68833200D92DE0 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					96218A011B67955500388FF9 = {
+					96EA5F681B68833200D92DE0 = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 962189E81B67955500388FF9;
+						TestTargetID = 96EA5F4F1B68833200D92DE0;
 					};
 				};
 			};
-			buildConfigurationList = 962189E41B67955500388FF9 /* Build configuration list for PBXProject "ImageRotate" */;
+			buildConfigurationList = 96EA5F4B1B68833200D92DE0 /* Build configuration list for PBXProject "ImageRotate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,29 +191,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 962189E01B67955500388FF9;
-			productRefGroup = 962189EA1B67955500388FF9 /* Products */;
+			mainGroup = 96EA5F471B68833200D92DE0;
+			productRefGroup = 96EA5F511B68833200D92DE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				962189E81B67955500388FF9 /* ImageRotate */,
-				96218A011B67955500388FF9 /* ImageRotateTests */,
+				96EA5F4F1B68833200D92DE0 /* ImageRotate */,
+				96EA5F681B68833200D92DE0 /* ImageRotateTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		962189E71B67955500388FF9 /* Resources */ = {
+		96EA5F4E1B68833200D92DE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962189FD1B67955500388FF9 /* LaunchScreen.xib in Resources */,
-				962189FA1B67955500388FF9 /* Images.xcassets in Resources */,
-				96218A2F1B67B50400388FF9 /* MainViewController.xib in Resources */,
+				96EA5F641B68833200D92DE0 /* LaunchScreen.xib in Resources */,
+				96EA5F7E1B68839500D92DE0 /* MainViewController.xib in Resources */,
+				96EA5F611B68833200D92DE0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96218A001B67955500388FF9 /* Resources */ = {
+		96EA5F671B68833200D92DE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,55 +223,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		962189E51B67955500388FF9 /* Sources */ = {
+		96EA5F4C1B68833200D92DE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962189F21B67955500388FF9 /* AppDelegate.m in Sources */,
-				96218A171B6795CF00388FF9 /* MainViewController.m in Sources */,
-				962189EF1B67955500388FF9 /* main.m in Sources */,
+				96EA5F591B68833200D92DE0 /* AppDelegate.m in Sources */,
+				96EA5F7D1B68839500D92DE0 /* MainViewController.m in Sources */,
+				96EA5F561B68833200D92DE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		962189FE1B67955500388FF9 /* Sources */ = {
+		96EA5F651B68833200D92DE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96218A091B67955500388FF9 /* ImageRotateTests.m in Sources */,
+				96EA5F701B68833200D92DE0 /* ImageRotateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		96218A041B67955500388FF9 /* PBXTargetDependency */ = {
+		96EA5F6B1B68833200D92DE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 962189E81B67955500388FF9 /* ImageRotate */;
-			targetProxy = 96218A031B67955500388FF9 /* PBXContainerItemProxy */;
+			target = 96EA5F4F1B68833200D92DE0 /* ImageRotate */;
+			targetProxy = 96EA5F6A1B68833200D92DE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		962189FB1B67955500388FF9 /* LaunchScreen.xib */ = {
+		96EA5F621B68833200D92DE0 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				962189FC1B67955500388FF9 /* Base */,
+				96EA5F631B68833200D92DE0 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		96218A2D1B67B50400388FF9 /* MainViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96218A2E1B67B50400388FF9 /* Base */,
-			);
-			name = MainViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		96218A0A1B67955500388FF9 /* Debug */ = {
+		96EA5F711B68833200D92DE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		96218A0B1B67955500388FF9 /* Release */ = {
+		96EA5F721B68833200D92DE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,7 +343,7 @@
 			};
 			name = Release;
 		};
-		96218A0D1B67955500388FF9 /* Debug */ = {
+		96EA5F741B68833200D92DE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -361,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		96218A0E1B67955500388FF9 /* Release */ = {
+		96EA5F751B68833200D92DE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -371,7 +363,7 @@
 			};
 			name = Release;
 		};
-		96218A101B67955500388FF9 /* Debug */ = {
+		96EA5F771B68833200D92DE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -390,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		96218A111B67955500388FF9 /* Release */ = {
+		96EA5F781B68833200D92DE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -408,34 +400,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		962189E41B67955500388FF9 /* Build configuration list for PBXProject "ImageRotate" */ = {
+		96EA5F4B1B68833200D92DE0 /* Build configuration list for PBXProject "ImageRotate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96218A0A1B67955500388FF9 /* Debug */,
-				96218A0B1B67955500388FF9 /* Release */,
+				96EA5F711B68833200D92DE0 /* Debug */,
+				96EA5F721B68833200D92DE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96218A0C1B67955500388FF9 /* Build configuration list for PBXNativeTarget "ImageRotate" */ = {
+		96EA5F731B68833200D92DE0 /* Build configuration list for PBXNativeTarget "ImageRotate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96218A0D1B67955500388FF9 /* Debug */,
-				96218A0E1B67955500388FF9 /* Release */,
+				96EA5F741B68833200D92DE0 /* Debug */,
+				96EA5F751B68833200D92DE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		96218A0F1B67955500388FF9 /* Build configuration list for PBXNativeTarget "ImageRotateTests" */ = {
+		96EA5F761B68833200D92DE0 /* Build configuration list for PBXNativeTarget "ImageRotateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96218A101B67955500388FF9 /* Debug */,
-				96218A111B67955500388FF9 /* Release */,
+				96EA5F771B68833200D92DE0 /* Debug */,
+				96EA5F781B68833200D92DE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 962189E11B67955500388FF9 /* Project object */;
+	rootObject = 96EA5F481B68833200D92DE0 /* Project object */;
 }

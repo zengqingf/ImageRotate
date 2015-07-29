@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "962189E81B67955500388FF9"
+               BlueprintIdentifier = "96EA5F4F1B68833200D92DE0"
                BuildableName = "ImageRotate.app"
                BlueprintName = "ImageRotate"
                ReferencedContainer = "container:ImageRotate.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96218A011B67955500388FF9"
+               BlueprintIdentifier = "96EA5F681B68833200D92DE0"
                BuildableName = "ImageRotateTests.xctest"
                BlueprintName = "ImageRotateTests"
                ReferencedContainer = "container:ImageRotate.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96218A011B67955500388FF9"
+               BlueprintIdentifier = "96EA5F681B68833200D92DE0"
                BuildableName = "ImageRotateTests.xctest"
                BlueprintName = "ImageRotateTests"
                ReferencedContainer = "container:ImageRotate.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "962189E81B67955500388FF9"
+            BlueprintIdentifier = "96EA5F4F1B68833200D92DE0"
             BuildableName = "ImageRotate.app"
             BlueprintName = "ImageRotate"
             ReferencedContainer = "container:ImageRotate.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "962189E81B67955500388FF9"
+            BlueprintIdentifier = "96EA5F4F1B68833200D92DE0"
             BuildableName = "ImageRotate.app"
             BlueprintName = "ImageRotate"
             ReferencedContainer = "container:ImageRotate.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "962189E81B67955500388FF9"
+            BlueprintIdentifier = "96EA5F4F1B68833200D92DE0"
             BuildableName = "ImageRotate.app"
             BlueprintName = "ImageRotate"
             ReferencedContainer = "container:ImageRotate.xcodeproj">

@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  ImageRotate
 //
-//  Created by Work on 15/7/28.
+//  Created by Work on 15/7/29.
 //  Copyright (c) 2015年 zengqingfu. All rights reserved.
 //
 
@@ -17,13 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
     MainViewController *mainVC = [[MainViewController alloc] init];
     self.window.rootViewController = mainVC;
-    
     
     return YES;
 }
