@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		968A3FD11B68B3A300452D80 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 968A3FD31B68B3A300452D80 /* Localizable.strings */; };
 		96D956861B68B4BC00EDB031 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96D956881B68B4BC00EDB031 /* InfoPlist.strings */; };
+		96D9568B1B68B6FE00EDB031 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D9568A1B68B6FE00EDB031 /* Default-568h@2x.png */; };
 		96EA5F561B68833200D92DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F551B68833200D92DE0 /* main.m */; };
 		96EA5F591B68833200D92DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F581B68833200D92DE0 /* AppDelegate.m */; };
 		96EA5F611B68833200D92DE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5F601B68833200D92DE0 /* Images.xcassets */; };
@@ -33,6 +34,7 @@
 		968A3FD51B68B3A600452D80 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		96D956871B68B4BC00EDB031 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96D956891B68B4BD00EDB031 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		96D9568A1B68B6FE00EDB031 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		96EA5F501B68833200D92DE0 /* ImageRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EA5F541B68833200D92DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96EA5F551B68833200D92DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		96EA5F471B68833200D92DE0 = {
 			isa = PBXGroup;
 			children = (
+				96D9568A1B68B6FE00EDB031 /* Default-568h@2x.png */,
 				96EA5F521B68833200D92DE0 /* ImageRotate */,
 				96EA5F6C1B68833200D92DE0 /* ImageRotateTests */,
 				96EA5F511B68833200D92DE0 /* Products */,
@@ -222,6 +225,7 @@
 				96EA5FB21B68A9D200D92DE0 /* MainViewController.xib in Resources */,
 				96EA5F611B68833200D92DE0 /* Images.xcassets in Resources */,
 				96D956861B68B4BC00EDB031 /* InfoPlist.strings in Resources */,
+				96D9568B1B68B6FE00EDB031 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
