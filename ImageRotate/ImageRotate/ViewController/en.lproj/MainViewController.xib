@@ -66,7 +66,7 @@
                     </connections>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="1" green="0.38765960859999998" blue="0.48119503829999999" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="Bm2-hz-pXf" secondAttribute="trailing" id="VAv-QG-C8H"/>
                 <constraint firstAttribute="centerX" secondItem="VFO-iW-tdj" secondAttribute="centerX" id="WnW-Jl-dcB"/>
