@@ -12,6 +12,8 @@
 		96D9568B1B68B6FE00EDB031 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D9568A1B68B6FE00EDB031 /* Default-568h@2x.png */; };
 		96EA5F561B68833200D92DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F551B68833200D92DE0 /* main.m */; };
 		96EA5F591B68833200D92DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F581B68833200D92DE0 /* AppDelegate.m */; };
+		96EA5F611B68833200D92DE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5F601B68833200D92DE0 /* Images.xcassets */; };
+		96EA5F641B68833200D92DE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5F621B68833200D92DE0 /* LaunchScreen.xib */; };
 		96EA5F701B68833200D92DE0 /* ImageRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F6F1B68833200D92DE0 /* ImageRotateTests.m */; };
 		96EA5F7D1B68839500D92DE0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA5F7B1B68839500D92DE0 /* MainViewController.m */; };
 		96EA5FB21B68A9D200D92DE0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96EA5FB41B68A9D200D92DE0 /* MainViewController.xib */; };
@@ -38,6 +40,8 @@
 		96EA5F551B68833200D92DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96EA5F571B68833200D92DE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96EA5F581B68833200D92DE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96EA5F601B68833200D92DE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96EA5F631B68833200D92DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		96EA5F691B68833200D92DE0 /* ImageRotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EA5F6E1B68833200D92DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96EA5F6F1B68833200D92DE0 /* ImageRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRotateTests.m; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				96EA5F791B68839500D92DE0 /* ViewController */,
 				96EA5F571B68833200D92DE0 /* AppDelegate.h */,
 				96EA5F581B68833200D92DE0 /* AppDelegate.m */,
+				96EA5F601B68833200D92DE0 /* Images.xcassets */,
+				96EA5F621B68833200D92DE0 /* LaunchScreen.xib */,
 				96EA5F531B68833200D92DE0 /* Supporting Files */,
 			);
 			path = ImageRotate;
@@ -214,8 +220,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96EA5F641B68833200D92DE0 /* LaunchScreen.xib in Resources */,
 				968A3FD11B68B3A300452D80 /* Localizable.strings in Resources */,
 				96EA5FB21B68A9D200D92DE0 /* MainViewController.xib in Resources */,
+				96EA5F611B68833200D92DE0 /* Images.xcassets in Resources */,
 				96D956861B68B4BC00EDB031 /* InfoPlist.strings in Resources */,
 				96D9568B1B68B6FE00EDB031 /* Default-568h@2x.png in Resources */,
 			);
@@ -276,6 +284,14 @@
 				96D956891B68B4BD00EDB031 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96EA5F621B68833200D92DE0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96EA5F631B68833200D92DE0 /* Base */,
+			);
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 		96EA5FB41B68A9D200D92DE0 /* MainViewController.xib */ = {
