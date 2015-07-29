@@ -48,9 +48,7 @@
     picker.delegate = self;
     //设置选择后的图片可被编辑
     picker.allowsEditing = NO;
-    [self presentViewController:picker animated:YES completion:^{
-        
-    }];
+    [self presentViewController:picker animated:YES completion:nil];
 }
 - (IBAction)rightRotate:(id)sender {
     self.count += 1;
