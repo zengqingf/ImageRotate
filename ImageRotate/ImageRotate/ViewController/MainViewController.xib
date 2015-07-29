@@ -25,7 +25,7 @@
                         <constraint firstAttribute="height" constant="44" id="aBl-dd-K5Z"/>
                     </constraints>
                     <items>
-                        <barButtonItem title="Open" id="s2E-vC-dwD">
+                        <barButtonItem title="打开" id="s2E-vC-dwD">
                             <connections>
                                 <action selector="openPhoto:" destination="-1" id="sLz-MV-0gH"/>
                             </connections>
@@ -33,7 +33,7 @@
                         <barButtonItem title="|" style="plain" id="jka-j2-tvs">
                             <color key="tintColor" red="1" green="0.38765960859999998" blue="0.48119503829999999" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
-                        <barButtonItem enabled="NO" title="Left" id="chK-b3-1CZ">
+                        <barButtonItem enabled="NO" title="左转" id="chK-b3-1CZ">
                             <connections>
                                 <action selector="leftRotate:" destination="-1" id="rPt-T8-MZr"/>
                             </connections>
@@ -41,7 +41,7 @@
                         <barButtonItem title="|" style="plain" id="eQK-5e-NjG">
                             <color key="tintColor" red="1" green="0.38765960859999998" blue="0.48119503829999999" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
-                        <barButtonItem enabled="NO" title="Right" id="llz-wI-Csp">
+                        <barButtonItem enabled="NO" title="右转" id="llz-wI-Csp">
                             <connections>
                                 <action selector="rightRotate:" destination="-1" id="7Qn-ia-1pM"/>
                             </connections>
@@ -49,7 +49,7 @@
                         <barButtonItem title="|" style="plain" id="LdY-tW-F9I">
                             <color key="tintColor" red="1" green="0.38765960859999998" blue="0.48119503829999999" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
-                        <barButtonItem enabled="NO" title="Save" id="3Tl-cY-I2f">
+                        <barButtonItem enabled="NO" title="保存" id="3Tl-cY-I2f">
                             <connections>
                                 <action selector="savePhotoAction:" destination="-1" id="Mqo-Yf-KGq"/>
                             </connections>
