@@ -26,6 +26,10 @@
     // Do any additional setup after loading the view from its nib.
     self.defaultImg = [UIImage imageNamed:@"openImg.png"];
     self.imageView.image = self.defaultImg;
+    
+   NSString * msg = NSLocalizedString(@"SaveImgSuccessfully", nil);
+    NSLog(@"%@", msg);
+    
 }
 
 - (void)didReceiveMemoryWarning {
