@@ -156,17 +156,24 @@
 {
     NSString *msg = nil ;
     if(error != NULL){
-        msg = @"保存图片失败" ;
+        NSString *resultStr = NSLocalizedString(@"SaveImgFailed", nil);
+        msg = [NSString stringWithFormat:@"%@\n%@",resultStr, error];
+        //msg = @"保存图片失败" ;
     }else{
-        msg = @"保存图片成功" ;
+        msg = NSLocalizedString(@"SaveImgSuccessfully", nil);
+        //msg = @"保存图片成功" ;
         
     }
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"保存图片结果提示" message:msg delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil];
+    NSString *result = NSLocalizedString(@"Result", nil);
+    NSString *confirm = NSLocalizedString(@"Confirm", nil);
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:result message:msg delegate:self cancelButtonTitle:confirm otherButtonTitles:nil];
     [alert show];
 }
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex{
     NSString *msg = alertView.message;
-    if ([msg containsString:@"成功"]) {
+    NSString *Success = NSLocalizedString(@"Success", nil);
+    if ([msg containsString:Success]) {
         self.imageView.image = self.defaultImg;
         [self buttonEnable:NO];
     };
