@@ -26,11 +26,6 @@
     // Do any additional setup after loading the view from its nib.
     self.defaultImg = [UIImage imageNamed:@"openImg.png"];
     self.imageView.image = self.defaultImg;
-    
-    
-    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    NSLog(@"%@", infoDictionary);
-
 }
 
 - (void)didReceiveMemoryWarning {
