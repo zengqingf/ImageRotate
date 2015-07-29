@@ -6,3 +6,9 @@
   Copyright (c) 2015年 zengqingfu. All rights reserved.
 */
 "CFBundleDisplayName"="ImageRotate";
+"Success" ="success";
+"Failed"="failed";
+"SaveImgFailed"="Save the picture failedttt";
+"SaveImgSuccessfully"="Save the image successfullyttt";
+"Result"="Resultttt";
+"Confirm"="Confirm";
