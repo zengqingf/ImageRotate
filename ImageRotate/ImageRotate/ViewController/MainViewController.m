@@ -210,6 +210,7 @@
         }
         UIImage *img = [UIImage imageWithData:data];
         self.imageView.image = img;
+        self.count = 0;
         [picker dismissViewControllerAnimated:YES completion:nil];
         
     }
